@@ -162,3 +162,9 @@ body {
   justify-content: center;
   margin: 1em;
 }
+.sys {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
