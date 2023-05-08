@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background: #007bff;
+  color: white;
+  font-family: dosis;
+}
+
+.head1 h2 {
+  padding-left: 1em;
+}
+
+.head2 {
+  display: flex;
+  position: absolute;
+  top: 9px;
+  right: 0;
+}
+
+.head2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.head2 ul li {
+  display: inline;
+  padding: 1em;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+
+.head2 ul li:hover {
+  border-bottom: 1px solid white;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin: 1em;
+}
+
+.sec1 {
+  width: 50%;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  line-height: 1.9em;
+}
+
+.sec1 p::first-letter {
+  font-size: 2em;
+  color: #007bff;
+}
+
+.sec2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  text-align: center;
+  padding: 2em;
+  margin: 6em;
+  background: #007bff;
+  color: white;
+}
+
+.label label {
+  font-size: 1.2em;
+
+}
+
+.inputText {
+  width: 20%;
+  padding: 0.5em;
+  margin: 1em;
+}
+
+#Description {
+  margin: 1em;
+  position: relative;
+  top: 10px;
+}
+
+#btn {
+  color: #007bff;
+  background: white;
+  padding: 0.5em;
+  width: 8em;
+  font-size: 1.1em;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#btn:hover {
+  background: #007bff;
+  color: white;
+  border: 1px solid white;
+}
+
+#btnn {
+  color: white;
+  background: #dc3545;
+  padding: 0.5em;
+  width: 8em;
+  font-size: 1.1em;
+  margin: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  cursor: pointer;
+}
+
+#btnn:hover {
+  background: white;
+  color: #dc3545;
+  border: 1px solid white;
+}
+
+#Computer {
+  color: #007bff;
+  position: relative;
+  display: block;
+  left: 6em;
+  border-bottom: 1px solid #007bff;
+}
+
+.lap1 {
+  padding: 1em;
+  margin: 1em;
+}
+
+.lap1 img {
+  width: 26%;
+}
+
+.img1 {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}
+.sys {
+  font-size: 1.2em;
+  text-align: center;
+  margin: 1em;
+  padding: 1em;
+}
